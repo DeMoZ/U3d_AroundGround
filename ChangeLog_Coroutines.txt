@@ -1,0 +1,31 @@
+Список переведеных скриптов на корутины
+
+не все скрипты на Enemy
+
+EnemyBehavior частично
+EnemyDriver 
+TagColor частично
+EnemyIdleDriver
+!TailManager не требует корутинов
+DestroyEffect
+!EnemyCollision не требует корутинов
+EnemyCreateBonuses
+EnemyCreatePiu
+
+
+
+
+не все скрипты Spawner
+
+SpawnerPiuInstantiate
+SpawnEnemyInstantiate
+SpawnBonInstantiate
+
+
+GateAppears
+
+ShowPlanet
+
+скрипты на Bonus
+
+BonusDriver
