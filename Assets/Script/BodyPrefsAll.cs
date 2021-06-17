@@ -177,7 +177,7 @@ public class BodyPrefsAll : MonoBehaviour
         if (enabled) VirtualRefresh();
         else
         {
-            Debug.LogError("Виртуальное уничтожение  " + name);
+            Debug.LogWarning("Виртуальное уничтожение  " + name);
             if (_deadPoints.Count > 0)
             {
                 for (int i = 0; i < _deadPoints.Count; i++)

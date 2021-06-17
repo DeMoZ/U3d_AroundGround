@@ -69,7 +69,7 @@ public class BodyPrefsPlayer : BodyPrefsAll
         }
         else
         {
-            Debug.LogError("Виртуальное уничтожение  " + name);
+            Debug.LogWarning("Виртуальное уничтожение  " + name);
             PlayDestroyParticles();
             VirtualDestroy();
         }

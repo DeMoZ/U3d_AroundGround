@@ -127,7 +127,7 @@ public class Level_0_Taining_0 : Level
         {
             if (_tipsBox.text != _deadMSG)
             {
-                Debug.LogError("наступило усовие смерти");
+                Debug.LogWarning("наступило усовие смерти");
                 _tipsBox.text = _deadMSG;
             }
         }
